@@ -1,0 +1,29 @@
+.gradient {
+    width: 246px;
+    height: 169px;
+    background-color: #FF7E02;
+    background-image: linear-gradient(#FFB212, #FF7E02);
+}
+.nav_pad {
+    padding: auto;
+    margin: auto;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;    
+}
+.nav_pad ul li{
+    padding-top: 10px;
+}
+
+.nav_pad ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.nav_one li.selected{
+    list-style-image: url('http://kayakannapolistours.com/images/square.jpg');         
+    margin-left: -8px; 
+    padding-left: 8px;    
+}
